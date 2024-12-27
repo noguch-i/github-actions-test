@@ -5,7 +5,6 @@ run-name: ${{ github.event.pull_request.title }} / Run By @${{ github.actor}}
 on:
   pull_request:
     branches-ignore:
-        - main
         - prd
         - stg
     types: [opened]
