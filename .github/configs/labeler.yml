@@ -9,3 +9,6 @@ hotfix:
     - head-branch: ['^hotfix/']
 refactor:
     - head-branch: [ '^refactor/' ]
+
+release:
+  - base-branch: 'main'
